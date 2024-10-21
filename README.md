@@ -14,4 +14,4 @@ Con una interfaz de usuario intuitiva, los usuarios pueden introducir texto en u
 
 ---
 
-[![Visitar el proyecto](https://img.shields.io/badge/Visitar%20el%20proyecto-URL-brightgreen)](https://traductor-ten.vercel.app/)
+[![Probar Traductor](https://img.shields.io/badge/Visitar%20el%20proyecto-brightgreen)](https://traductor-ten.vercel.app/)
