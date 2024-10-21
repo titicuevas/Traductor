@@ -11,3 +11,4 @@ Este proyecto es un **traductor de idiomas** que utiliza la API de DeepL para of
 - 🇩🇪 Alemán (DE)
 
 Con una interfaz de usuario intuitiva, los usuarios pueden introducir texto en un idioma, seleccionar el idioma de destino, y obtener la traducción al instante. Además, el proyecto incluye funcionalidades para intercambiar idiomas fácilmente.
+[![Visitar el proyecto](https://img.shields.io/badge/Visitar%20el%20proyecto-URL-brightgreen)](https://traductor-ten.vercel.app/)
