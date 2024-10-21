@@ -1,4 +1,4 @@
-import Translator from './components/translator'; 
+import Translator from './components/Translator'; 
 import './App.css'; // Asegúrate de que esta importación sea correcta
 
 const App = () => {
