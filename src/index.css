@@ -9,21 +9,15 @@
 
 .row {
   display: flex;
-  justify-content: space-around; /* Cambiar a space-around para espaciado uniforme */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1000px;
-  gap: 2rem; /* Espacio entre las columnas */
+  max-width: 1200px;
+  gap: 1.5rem; /* Espacio entre las columnas */
 }
 
-.col-md-5 {
+.text-area-container {
   flex: 1;
-  max-width: 450px;
-}
-
-.col-md-2 {
-  display: flex;
-  justify-content: center; /* Centrar el botón dentro de su columna */
 }
 
 textarea {
@@ -40,13 +34,13 @@ textarea {
 }
 
 button.swap-btn {
-  font-size: 1.5rem;
-  padding: 0.4rem 1.2rem;
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 8px;
   background-color: var(--btn-bg-color, #646cff);
   color: var(--btn-text-color, #fff);
   transition: background-color 0.25s ease;
-  margin-left: 30px;
+  margin-left: 24px;
 }
 
 button.swap-btn:hover {
@@ -58,4 +52,16 @@ button.swap-btn:hover {
   max-width: 300px;
   margin: 0 auto 10px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* Ajustes para pantallas pequeñas */
+  .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  button.swap-btn {
+    margin: 1rem auto; /* Centrar botón en dispositivos móviles */
+  }
 }
